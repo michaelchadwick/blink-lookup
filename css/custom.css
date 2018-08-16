@@ -1,0 +1,35 @@
+.container {
+  max-width: 100%;
+  padding: 0 10px;
+  width: 100%;
+}
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+h5 {
+  margin-bottom: 0;
+  text-align: center;
+}
+.form-group {
+  margin-bottom: 0;
+}
+input {
+  width: auto;
+}
+input[type='text'] {
+  background-color: #eee;
+  font-size: 26px;
+  height: 48px;
+  margin: 0 0 5px;
+  text-align: center;
+}
+input[type='text']::placeholder {
+  color: #ccc;
+}
+button.btn {
+  font-size: 20px;
+  margin: 0;
+  width: 100%;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "bones",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michaelchadwick/bones"
+  },
+  "authors": [
+    "Dave Gamache <hello@davegamache.com> (http://davegamache.com/)"
+  ],
+  "description": "Simple Web boilerplate, forked from Skeleton",
+  "main": "css/bones.css",
+  "keywords": [
+    "css",
+    "bones",
+    "responsive",
+    "boilerplate",
+    "web",
+    "html",
+    "js"
+  ],
+  "license": "MIT"
+}
