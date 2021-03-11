@@ -1,14 +1,13 @@
-/* global $ */
+const blinkUrl = 'https://act.ucsd.edu/directory/search?t=directory&entry='
 
-$(function() {
-  const blinkUrl = 'https://act.ucsd.edu/directory/search?t=directory&entry='
+document.querySelector('#query').focus()
 
-  $('#query').focus()
+document.querySelector('form').addEventListener('submit', (evt) => {
+  evt.preventDefault()
 
-  $('form').on('submit', (evt) => {
-    evt.preventDefault()
-    let query = $('#query').val()
+  const query = document.querySelector('#query')
 
-    window.location = blinkUrl + query.split(' ').join('+')
-  })
+  console.log('query', query);
+
+  window.location = blinkUrl + query.value.split(' ').join('+')
 })
